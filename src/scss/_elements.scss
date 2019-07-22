@@ -1,0 +1,17 @@
+@import "~bootstrap/dist/css/bootstrap";
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background: url('../images/cheeseburger.png') no-repeat center center;
+  @if $rtl {
+    direction: rtl;
+  }
+  @else {
+    direction: ltr;
+  }
+  
+}
